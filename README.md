@@ -1,5 +1,5 @@
 <!--hide-->
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
+# StarWars Blog API
 <!--endhide--> 
 
 It is recommended to develop this project in conjuntion with the [StartWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), you will eventually integrate both projects and have fully functional applications with backend and front-end.
@@ -31,7 +31,7 @@ $ git clone https://github.com/4GeeksAcademy/expressjs-rest-hello
 (you will need to have a database installed and python 3.7+ installed if you do it locally but all of that it's already installed on Gitpod)
  
 
-The boiplerplate's README files has a video on how to start and complete your API. 
+The boiplerplate's README files have a video on how to start and complete your API. 
 
 🐍 For python: There is an interactive tutorial on how to build a [Flask API](https://github.com/breatheco-de/python-flask-api-tutorial), it's a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
 
@@ -47,7 +47,7 @@ Create an API that connects to a database and implements the following Endpoints
 - `[GET] /planets` Get a list of all the planets in the database
 - `[GET] /planets/<int:planet_id>` Get one single planet information
 
-Additionally create the following endpoints to allow your StartWars blog to have users and favorites:
+Additionally, create the following endpoints to allow your StartWars blog to have users and favorites:
 
 - `[GET] /users` Get a list of all the blog post users 
 - `[GET] /users/favorites` Get all the favorites that belong to the current user.
@@ -64,12 +64,12 @@ https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-
 
 This exercise will make you practice the following fundamentals:
 
-1. Building an RESTful API using one of the most popular libraries [Python Flask](https://flask.palletsprojects.com/en/1.1.x/) or [Express.js](https://expressjs.com/).
+1. Building an RESTful API using one of the most popular libraries, [Python Flask](https://flask.palletsprojects.com/en/1.1.x/) or [Express.js](https://expressjs.com/).
 2. Building a database with the **ORM** called [SQLAlchemy](https://www.sqlalchemy.org/) or [TypeORM](https://typeorm.io/)
 3. Database Migrations using migration system [Alembic](https://alembic.sqlalchemy.org/en/latest/) or the native migration system from TypeORM.
 
 ## 😎 Feeling confident?
 
-The following requirements are not necessary to successfully complete this project, but you wpuld like to try coding them if you feel like challenging yourself ☺️
+The following requirements are not necessary to successfully complete this project, but you would  like to try coding them if you feel like challenging yourself ☺️
 
 `+1` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people, that way all the database information can be managed using the API instead of having to rely on the flask admin to create the plantes and people.
